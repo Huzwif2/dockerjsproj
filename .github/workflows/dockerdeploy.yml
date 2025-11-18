@@ -26,7 +26,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/dockerjsproject:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/dockerjsproj:latest
 
   deploy:
     runs-on: ubuntu-latest
